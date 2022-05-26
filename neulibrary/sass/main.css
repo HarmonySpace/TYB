@@ -1,0 +1,204 @@
+.back {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.back a {
+  width: 100%;
+}
+
+.back svg {
+  width: 5vw;
+  fill: #222222;
+  margin: 0 2vw;
+}
+
+.testing {
+  display: flex;
+  flex-direction: column;
+  flex: warp;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 1vh auto;
+  padding: 1vh auto;
+  background-color: #DDDDDD;
+}
+
+.testing div {
+  margin: 10vh auto 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  aling-item: center;
+}
+
+.nave button {
+  font-size: 3vw;
+}
+
+.codes, .sugestions, .sugestions div {
+  display: flex;
+  flex-direction: column;
+  flex: warp;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.codes pre, .sugestions pre {
+  font-size: 1.3vw;
+  color: #00B2FF;
+  border-radius: 10px;
+  background-color: #222222;
+  padding: 1vw 0;
+  box-shadow: -1vw 1vw 1vw rgba(34, 34, 34, 0.3), 1vw -1vw 1vw rgba(255, 255, 255, 0.5);
+  width: 90%;
+  display: flex;
+  justify-content: start;
+  aling-item: center;
+}
+
+.sugestions {
+  margin: 0 auto;
+}
+
+.sugestions h2, .sugestions h1 {
+  width: 100%;
+}
+
+.sugestions div {
+  justify-content: start;
+  box-shadow: -1vw 1vw 1vw rgba(34, 34, 34, 0.3), 1vw -1vw 1vw rgba(255, 255, 255, 0.5);
+  padding: 3vw;
+  border-radius: 10px;
+  margin: 3vh;
+}
+
+.btn-1 button {
+  font-size: 7vw;
+  color: #222222;
+  border-radius: 100px;
+  padding: 1vw 5vw;
+  background-color: #DDDDDD;
+  font-weight: 100;
+  margin: 1vw;
+  box-shadow: -1vw 1vw 1vw rgba(34, 34, 34, 0.3), 1vw -1vw 1vw rgba(255, 255, 255, 0.5);
+  outline: none;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-1 button:hover {
+  font-size: 7vw;
+  border-radius: 1000px;
+  color: #00B2FF;
+  padding: 1vw 10vw;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-2 button {
+  font-size: 7vw;
+  color: #222222;
+  border-radius: 10px;
+  padding: 1vw 5vw;
+  background-color: #DDDDDD;
+  font-weight: 100;
+  margin: 1vw;
+  box-shadow: -1vw 1vw 1vw rgba(34, 34, 34, 0.3), 1vw -1vw 1vw rgba(255, 255, 255, 0.5);
+  outline: none;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-2 button:hover {
+  font-size: 5vw;
+  border-radius: 100px;
+  color: #00B2FF;
+  padding: 1vw 5vw;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-3 button {
+  font-size: 7vw;
+  color: #222222;
+  border-radius: 1000px;
+  padding: 1vw 5vw;
+  background-color: #DDDDDD;
+  font-weight: 100;
+  margin: 1vw;
+  box-shadow: -1vw 1vw 1vw rgba(34, 34, 34, 0.3), 1vw -1vw 1vw rgba(255, 255, 255, 0.5);
+  outline: none;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-3 button:hover {
+  font-size: 10vw;
+  border-radius: 1000px;
+  color: #00B2FF;
+  padding: 5vw 3vw;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-4 button {
+  font-size: 7vw;
+  color: #222222;
+  border-radius: 100px;
+  padding: 1vw 5vw;
+  background-color: #DDDDDD;
+  font-weight: 100;
+  margin: 1vw;
+  box-shadow: -1vw 1vw 1vw rgba(34, 34, 34, 0.3), 1vw -1vw 1vw rgba(255, 255, 255, 0.5);
+  outline: none;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-4 button:hover {
+  font-size: 7vw;
+  border-radius: 1000px;
+  color: #00B2FF;
+  padding: 1vw 10vw;
+  border: none;
+  cursor: pointer;
+  padding-left: 20vw;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, .sugestions h2, .sugestions h1 {
+  font-size: 7vw;
+  text-align: center;
+  font-weight: 100;
+}
+
+h2, .sugestions h2 {
+  font-size: 4vw;
+}
+
+.sugestions h2, .sugestions h1 {
+  margin: 15vw auto 0 auto;
+}
+
+.sugestions h2 {
+  margin: 0;
+  text-align: left;
+}
+
+.sugestions p, span {
+  font-size: 1.5vw;
+}
+
+.sugestions span {
+  color: #00B2FF;
+  padding: 0.1vw 2vw;
+  border-radius: 10px;
+  background-color: #222222;
+}

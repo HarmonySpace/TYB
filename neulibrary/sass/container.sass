@@ -1,0 +1,118 @@
+
+@import "var.sass"
+//// program containers
+
+
+
+//// NEUMORPHISM
+.back
+    display: flex
+    justify-content: start
+    align-items: center
+
+.back a
+    width: 100%
+
+.back svg
+    width: 5vw
+    fill: $fonts
+    margin: 0 2vw
+
+
+
+.testing
+    display: flex
+    flex-direction: column
+    flex: warp
+    justify-content: center
+    align-items: center
+    width: 90%
+    margin: 1vh auto
+    padding: 1vh auto
+    background-color: $background
+
+.testing div
+    margin: 10vh auto 0 auto
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+
+
+
+.component-item
+    @extend .testing
+
+
+
+.nave-2
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 100%
+
+.nave-2 div a:nth-child(1)
+    border-radius: $bor10
+    margin-right: 30vw
+
+.nave-2 img
+    @include button-img()
+
+.nave-2 img:hover
+    padding: 0
+
+.nave-2 div a:nth-child(4)
+    margin-left: 2vw
+
+.nave-3
+    @extend .nave-2
+
+.nave-3 div
+    justify-content: start
+
+.nave-3 img
+    @include button-img()
+
+.nave-3 div div
+    width: 25%
+    display: flex
+    justify-content: end
+    align-items: center
+    margin: 0 5vw
+
+.nave-3 div a:nth-child(1)
+    margin: 0 5vw
+
+.nave-3 div div
+    margin: 0vw
+
+
+
+
+.codes
+    display: flex
+    flex-direction: column
+    flex: warp
+    justify-content: center
+    align-items: center
+    width: 90%
+
+.codes pre
+    @include codes-main($fc: $selected, $bg: $fonts)
+
+
+
+.sugestions
+    @extend .codes
+    margin: 0 auto
+
+.sugestions h1
+    width: 100%
+
+.sugestions div
+    @extend .codes
+    justify-content: start
+    box-shadow: $box-sl-1
+    padding: 3vw
+    border-radius: $bor1
+    margin: 3vh

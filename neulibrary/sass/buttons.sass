@@ -1,0 +1,64 @@
+
+@import "var.sass"    
+//// program buttons
+
+
+
+//// NEUMORPHISM
+
+//-> button 1
+.btn-1 button
+    @include button-main
+    
+.btn-1 button:hover
+    @include button-main-hover
+
+
+//-> button 2
+.btn-2 button
+    @include button-main($br: $bor1)
+
+.btn-2 button:hover
+    @include button-main-hover($fs: 5vw, $br: $bor10, $pd2: 5vw)
+
+
+//-> button 3
+.btn-3 button
+    @include button-main($br: $bor100)
+
+.btn-3 button:hover
+    @include button-main-hover($fs: 10vw, $pd1: 5vw, $pd2: 3vw)
+
+
+//-> button 4
+.btn-4 button
+    @include button-main
+
+.btn-4 button:hover
+    @include button-main-hover()
+    padding-left: 20vw
+
+
+
+//// Nave buttons
+
+.nave-1 button
+    @include button-main($fs: 2vw, $pd1: 1vw, $pd2: 3vw)
+
+.nave-1 button:hover
+    @include button-main-hover($fs: 2vw, $fc: $fonts, $pd2: 5vw)
+    font-weight: 900
+
+.nave-2 button
+    @include button-main($fs: 2vw, $pd1: 1vw, $pd2: 2vw)
+
+.nave-2 button:hover
+    @include button-main-hover($fs: 2vw, $pd1: 1vw, $pd2: 3vw)
+
+.nave-3 button
+    @include button-main($fs: 1vw, $pd2: 1vw)
+    box-shadow: $box-sl-05
+
+.nave-3 button:hover
+    @include button-main-hover($fs: 1vw, $pd2: 2vw)
+    
